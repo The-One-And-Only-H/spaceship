@@ -41,7 +41,7 @@ var myGamePiece;
 
 function startGame() {
     myGameArea.start();
-    myGamePiece = new component(30, 30, "gray", 100, 350);
+    myGamePiece = new component(30, 20, "gray", 100, 350);
 }
 
 var myGameArea = {
